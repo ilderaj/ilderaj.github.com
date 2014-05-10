@@ -9,13 +9,15 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Jared's
-tagline: A beginner of Python
+theme :
+  tagline : A beginner of Python
+  social :
+    github : ilderaj
+    twitter : ilderaj
+    feedburner : feedname
 author :
   name : Jared
   email : blah@email.test
-  github : ilderaj
-  twitter : ilderaj
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
