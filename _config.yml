@@ -12,12 +12,12 @@ title : Jared's
 theme :
   tagline : 
   social :
-    github : ilderaj
+    github : 
     twitter : ilderaj
-    feedburner : feedname
+    feedburner : 
 author :
   name : Jared
-  email : blah@email.test
+  email : 
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
