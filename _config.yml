@@ -10,7 +10,7 @@ pygments: true
 #
 title : Jared's
 theme :
-  tagline : A beginner of Python
+  tagline : 
   social :
     github : ilderaj
     twitter : ilderaj
