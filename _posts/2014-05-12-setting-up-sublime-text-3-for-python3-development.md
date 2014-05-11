@@ -2,7 +2,7 @@
 layout: post
 title: "Setting Up Sublime Text 3 for Python3 Development"
 description: ""
-category: 
+category: blogs
 tags: [Python, SublimeText]
 ---
 {% include JB/setup %}
