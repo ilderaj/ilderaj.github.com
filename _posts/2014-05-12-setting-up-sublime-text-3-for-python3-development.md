@@ -8,8 +8,8 @@ tags: [Python, SublimeText]
 {% include JB/setup %}
 I'm recently studying Python3 programing. I use SublimeText as my editor. There is one problem that SublimeText can only run Python2 scripts becasue it is the default version on OSX even if the Python3 has already been installed. Here below is the solution.
 ##Python3 build
-Go to：
-tools -- build system -- new build system
+Go to：`tools -- build system -- new build system`
+
 Create a file named **Python3.sublime-build** and write in it：
 ```
 {
@@ -24,14 +24,12 @@ Create a file named **Python3.sublime-build** and write in it：
 First install the [package control](https://sublime.wbond.net/installation#st3)；
 
 Then go to: 
-
-preferences -- package control -- install package 
+`preferences -- package control -- install package`
 
 search **SublimeREPL** and install.
 ##Make Python3 Running in SublimeREPL
-Go to directory: 
-
-/Users/jared/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python
+Go to OSX directory: 
+`/Users/jared/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python`
 
 open **Main.sublime-menu**，find the content which contains **Python - RUN current file**, replace the content with：
 ```
@@ -51,7 +49,7 @@ open **Main.sublime-menu**，find the content which contains **Python - RUN curr
 }
 ```
 ##Setting Up the RUN current file shortcut
-Go to **preferences -- key bindings - user**, and fill in：
+Go to `preferences -- key bindings - user`, and fill in：
 ```
 [ 
     {"keys":["command+p"],
