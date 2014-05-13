@@ -10,13 +10,13 @@ pygments: true
 #
 title : Jasred
 theme :
-  tagline : The name JASRED is a combinaton of Jasmine and Jared, who are beginners in Python programing.
+  tagline : The blog name JASRED is a combinaton of Jasmine and Jared.
   social :
     github : 
     twitter : ilderaj
     feedburner : 
 author :
-  name : Jasred
+  name : Jared
   email : 
 
 # The production_url is only used when full-domain names are needed

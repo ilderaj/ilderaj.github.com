@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Setting Up Sublime Text 3 for Python3 Development"
-description: ""
+title: "Setting Up Sublime Text 3 for Python3"
+description: "help sublime text run python3 scripts"
 category: blogs
 tags: [Python, SublimeText]
 ---
 {% include JB/setup %}
-MacOS 下 SublimeText 调用的是系统自带的 Python2，不能 raw_input ，不能 interact。Google 到了一些解决方案。
+I'm recently studying Python3 programing. I use SublimeText as my editor. There is one problem that SublimeText can only run Python2 scripts becasue it is the default version on OSX even if the Python3 has already been installed. Here below is the solution.
 ##Python3 build
-进入：
+Go to：
 tools -- build system -- new build system
-写入下面的内容并保存为 Python3.sublime-build ：
+Create a file named **Python3.sublime-build** and write in it：
 ```
 {
     "cmd": ["/usr/local/bin/python3", "-u", "$file"],
@@ -20,15 +20,15 @@ tools -- build system -- new build system
     "path": "/usr/local/Frameworks/Python.framework/Versions/3.3/bin/"
 }
 ```
-##SublimeREPL
-首先安装 [package control](https://sublime.wbond.net/installation#st3)；
-然后进入 
+##Install SublimeREPL
+First install the [package control](https://sublime.wbond.net/installation#st3)；
+Then go to: 
 preferences -- package control -- install package 
-搜索 SublimeREPL 安装。
-##Run Python3 in SublimeREPL
-前往文件夹 
+search **SublimeREPL** and install.
+##Make Python3 Running in SublimeREPL
+Go to directory: 
 /Users/jared/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python
-打开 Main.sublime-menu ，找到包含 Python - RUN current file 的一段内容，并将此段替换为：
+open **Main.sublime-menu**，find the content which contains **Python - RUN current file**, replace the content with：
 ```
 {"command": "repl_open",
  "caption": "Python3 - RUN current file",
@@ -45,8 +45,8 @@ preferences -- package control -- install package
             }
 }
 ```
-##RUN current file 快捷键
-进入 preferences -- key bindings - user ,写入：
+##Setting Up the RUN current file shortcut
+Go to **preferences -- key bindings - user**, and fill in：
 ```
 [ 
     {"keys":["command+p"],
