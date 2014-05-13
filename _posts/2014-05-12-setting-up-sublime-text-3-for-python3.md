@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Up Sublime Text 3 for Python3"
+title: "Setting Up Sublime Text 3 for Python3 Development"
 description: "help sublime text run python3 scripts"
 category: blogs
 tags: [Python, SublimeText]
@@ -22,12 +22,17 @@ Create a file named **Python3.sublime-build** and write in it：
 ```
 ##Install SublimeREPL
 First install the [package control](https://sublime.wbond.net/installation#st3)；
+
 Then go to: 
+
 preferences -- package control -- install package 
+
 search **SublimeREPL** and install.
 ##Make Python3 Running in SublimeREPL
 Go to directory: 
+
 /Users/jared/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python
+
 open **Main.sublime-menu**，find the content which contains **Python - RUN current file**, replace the content with：
 ```
 {"command": "repl_open",

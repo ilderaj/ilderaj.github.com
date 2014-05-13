@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jasred = Jasmine + Jared
+title: Jasred
 ---
 {% include JB/setup %}
 
