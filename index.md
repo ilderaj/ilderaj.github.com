@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jared's blog posts
+title: Jasred = Jasmine + Jared
 ---
 {% include JB/setup %}
 

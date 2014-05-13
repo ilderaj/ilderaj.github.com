@@ -8,15 +8,15 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jared's
+title : Jasred
 theme :
-  tagline : 
+  tagline : The name JASRED is a combinaton of Jasmine and Jared, who are beginners in Python programing.
   social :
     github : 
     twitter : ilderaj
     feedburner : 
 author :
-  name : Jared
+  name : Jasred
   email : 
 
 # The production_url is only used when full-domain names are needed
