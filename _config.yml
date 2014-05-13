@@ -10,7 +10,7 @@ pygments: true
 #
 title : Jasred
 theme :
-  tagline : The blog name JASRED is a combinaton of Jasmine and Jared.
+  tagline : JASRED is the combinaton of Jasmine and Jared.
   social :
     github : 
     twitter : ilderaj
