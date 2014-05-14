@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jasred
+title : JASRED
 theme :
   tagline : JASRED is the combinaton of Jasmine and Jared.
   social :

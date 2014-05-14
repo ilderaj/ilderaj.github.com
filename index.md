@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jasred
+title: JASRED
 ---
 {% include JB/setup %}
 
