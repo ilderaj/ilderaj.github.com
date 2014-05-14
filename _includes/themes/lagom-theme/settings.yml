@@ -1,11 +1,3 @@
-title : JASRED
 theme :
   name : lagom
-  tagline : JASRED is the combinaton of Jasmine and Jared.
-  social :
-    github : 
-    twitter : ilderaj
-    feedburner : 
-author :
-  name : Jared
-  email : 
+
