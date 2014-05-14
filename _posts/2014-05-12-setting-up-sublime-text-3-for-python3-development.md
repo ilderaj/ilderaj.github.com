@@ -25,7 +25,7 @@ First install the [package control](https://sublime.wbond.net/installation#st3).
 `preferences -- package control -- install package`
 
 Search **SublimeREPL** and install.
-##Make Python3 Running in SublimeREPL
+##Make Python3 running in SublimeREPL
 Go to OSX directory: 
 `/Users/jared/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python`
 
@@ -46,7 +46,7 @@ open **Main.sublime-menu**，find the content which contains **Python - RUN curr
             }
 }
 ```
-##Setting Up the RUN current file shortcut
+##Shortcut for RUN-current-file command
 Go to `preferences -- key bindings - user`, and fill in：
 ```
 [ 
