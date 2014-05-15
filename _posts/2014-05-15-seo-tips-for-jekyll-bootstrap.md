@@ -8,10 +8,9 @@ tags: [Jekyll, SEO]
 {% include JB/setup %}
 There are many SEO tricks for JB. Some of them which I think are easy to manipulate are as below.
 
-- Dead URL should be firstly avoided. Open `_config.yml` and remove `/:categories` from `permalink` part.
+* Dead URL should be firstly avoided. Open `_config.yml` and remove `/:categories` from `permalink` part.
 -Then set `production_url` to the domain name of the Jekyll-Bootstrap site. [www.jasred.com](http://www.jasred.com)in my case.
-- Replace the default `sitemap.txt` with a `sitemap.xml` which would be more Google-friendly. Write the following content in the new `.xml` file:
-
+* Replace the default `sitemap.txt` with a `sitemap.xml` which would be more Google-friendly. Write the following content in the new `.xml` file:
     ---
     # Remember to set production_url in your _config.yml file!
     layout: nil
@@ -30,13 +29,10 @@ There are many SEO tricks for JB. Some of them which I think are easy to manipul
         </url>
     {% endfor %}
     </urlset>
-
-- Create a file named `robots.txt` in the root directory of your repository:
-
+* Create a file named `robots.txt` in the root directory of your repository:
     ---
     title: robots
     ---
     User-agent: *
     Sitemap: <{{site.production_url}}/sitemap.xml>
-    
-- Last but not least, keep producing content. 
+* Last but not least, keep producing content. 
