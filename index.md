@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog Posts
+title: Read, Think, Write, Share
 ---
 {% include JB/setup %}
 
