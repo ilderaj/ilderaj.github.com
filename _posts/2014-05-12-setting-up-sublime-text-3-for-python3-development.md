@@ -61,5 +61,3 @@ Go to `preferences -- key bindings - user`, and fill in：
     }
 ]
 ```
-##this is a test
-this is a test
