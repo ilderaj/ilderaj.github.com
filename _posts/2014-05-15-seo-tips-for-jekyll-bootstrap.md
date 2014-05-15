@@ -6,6 +6,7 @@ category: Coding
 tags: [Jekyll, SEO]
 ---
 {% include JB/setup %}
+
 There are many SEO tricks for JB. Some of them which I think are easy to manipulate are as below.
 
 * Dead URL should be firstly avoided. Open `_config.yml` and remove `/:categories` from `permalink`.

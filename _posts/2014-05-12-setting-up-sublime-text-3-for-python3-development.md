@@ -6,6 +6,7 @@ category: coding
 tags: [Python, SublimeText]
 ---
 {% include JB/setup %}
+
 I'm recently studying Python3 programing. I use SublimeText as my editor. There is one problem that SublimeText can only run Python2 scripts becasue it is the default version on OSX even if the Python3 has already been installed. Here below is the solution.
 ##Python3 build
 Go to：`tools -- build system -- new build system`
