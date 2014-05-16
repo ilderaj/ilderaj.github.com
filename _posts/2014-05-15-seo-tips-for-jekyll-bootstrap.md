@@ -13,34 +13,32 @@ There are many SEO tricks for JB. Some of them which I think are easy to manipul
 * Then set `production_url` to the domain name of the Jekyll-Bootstrap site. [www.jasred.com](http://www.jasred.com)in my case which is a customized domain.
 
 * Replace the default `sitemap.txt` with a `sitemap.xml` which would be more search engine friendly. And write in:
-```
----
-# Remember to set production_url in your _config.yml file!
-layout: nil
-title : Sitemap
----
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% for post in site.posts %}
-    <url>
-        <loc>{{site.production_url}}{{ post.url }}</loc>
-    </url>
-{% endfor %}
-{% for page in site.pages %}
-    <url>
-        <loc>{{site.production_url}}{{ page.url }}</loc>
-    </url>
-{% endfor %}
-</urlset>
-```
+
+    ---
+    # Remember to set production_url in your _config.yml file!
+    layout: nil
+    title : Sitemap
+    ---
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+        <url>
+            <loc>{{site.production_url}}{{ post.url }}</loc>
+        </url>
+    {% endfor %}
+    {% for page in site.pages %}
+        <url>
+            <loc>{{site.production_url}}{{ page.url }}</loc>
+        </url>
+    {% endfor %}
+    </urlset>
 
 * Create a `robots.txt` file in the root directory of the repository:
-```
----
-title: robots
----
-User-agent: *
-Sitemap: <{{site.production_url}}/sitemap.xml>
-```
+
+    ---
+    title: robots
+    ---
+    User-agent: *
+    Sitemap: <{{site.production_url}}/sitemap.xml>
 
 * Last but not least, keep producing content. 
