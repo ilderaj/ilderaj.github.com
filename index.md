@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Read, Think, Write, Share
+title: Just another Github Page. 
 ---
 {% include JB/setup %}
 
