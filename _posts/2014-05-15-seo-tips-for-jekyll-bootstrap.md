@@ -10,7 +10,7 @@ There are many SEO tricks for JB. Some of them which I think are easy to manipul
 
 * Dead URL should be firstly avoided. Open `_config.yml` and remove `/:categories` from `permalink` part.
 
-* Then set `production_url` to the domain name of the Jekyll-Bootstrap site. [www.jasred.com](http://www.jasred.com)in my case which is a customized domain.
+* Then set `production_url` to the domain name of the Jekyll-Bootstrap site. [www.jasred.com](http://www.jasred.com) in my case which is a [custom domain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages).
 
 * Replace the default `sitemap.txt` with a `sitemap.xml` which would be more search engine friendly:
 
