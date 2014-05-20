@@ -68,11 +68,9 @@ It's a personal thing. I'd like to
 * enable word wrap
 I go to `Preferences -- Settings -- User` and add the following lines:
 
-```
-{
-    "font_face": "Courier New",
-    "font_size": 16,
-    "open_files_in_new_window": false,
-    "word_wrap": true
-}
-```
+    {
+        "font_face": "Courier New",
+        "font_size": 16,
+        "open_files_in_new_window": false,
+        "word_wrap": true
+    }
