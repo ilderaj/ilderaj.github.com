@@ -7,7 +7,9 @@ tags: [Python, backup, zipfile]
 ---
 {% include JB/setup %}
 
-I'm recently reading the book [*A Byte of Python*](http://www.swaroopch.com/notes/python/) by Swaroop C H. The chapter [*Problem Solving*](http://www.swaroopch.com/notes/python/#problem_solving) is about creating a program that backups in a zip file. The author uses `os.system` to create the archives for pedagogical purposes and suggests the readers to try using `zipfile` or `tarfile` which are built-in modules to refine the program. Here is what I did: 
+I'm recently reading [*A Byte of Python*](http://www.swaroopch.com/notes/python/) by Swaroop C H (fantastic book for Python beginners BTW). The chapter [*Problem Solving*](http://www.swaroopch.com/notes/python/#problem_solving) is about creating a program that backups files. The author uses `os.system` to create the archives for pedagogical purposes and suggests the readers to try using `zipfile` or `tarfile` which are built-in modules to refine the program. 
+
+Here is what I did: 
 ##Ver1
 The first version is based on the original basic version mentioned in the book. It creates a zip file named by the current time and add all the files under a certain directory to it:
 
@@ -37,7 +39,7 @@ else:
 ~~~
 
 ##Ver2
-A subdirectory is created to store the archives categorized by date:
+A subdirectory is created in the version to store the archives categorized by date:
 
 ~~~ python
 import zipfile, os, time
@@ -72,7 +74,7 @@ else:
 ~~~
 
 ##Ver3
-A user-input comment is attached to the file name in order to differenciate the backup files. It's like the GitHub commit :)
+A user-input comment is attached to the file name in this version in order to differenciate the backup files. It's like the GitHub commit :). 
 
 ~~~ python
 import zipfile, os, time
