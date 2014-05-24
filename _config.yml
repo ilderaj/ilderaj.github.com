@@ -13,6 +13,7 @@ markdown: kramdown
 #
 title : JASRED
 theme :
+  highlight_color : '#3498db'
   tagline : JASRED is the combinaton of Jasmine and Jared.
   social :
     github : 
