@@ -11,7 +11,7 @@ I'm recently reading the book [*A Byte of Python*](http://www.swaroopch.com/note
 ##Ver1
 The first version is based on the original basic version mentioned in the book. It creates a zip file named by the current time and add all the files under a certain directory to it:
 
-```python
+~~~ python
 import zipfile, os, time
 
 source = ['/Users/jared/Documents/test']
@@ -34,12 +34,12 @@ if lst == [z.namelist()]:#check if all the files are zipped
     print("Congratulations, the backup succeeded.")
 else:
     print("Sorry, the backup failed.")
-```
+~~~
 
 ##Ver2
 A subdirectory is created to store the archives categorized by date:
 
-```python
+~~~ python
 import zipfile, os, time
 
 source = ['/Users/jared/Documents/test']
@@ -69,12 +69,12 @@ if lst == [z.namelist()]:#check if all the files are zipped
     print("Congratulations, the backup succeeded.")
 else:
     print("Sorry, the backup failed.")
-```
+~~~
 
 ##Ver3
 A user-input comment is attached to the file name in order to differenciate the backup files. It's like the GitHub commit :)
 
-```python
+~~~ python
 import zipfile, os, time
 
 source = ['/Users/jared/Documents/test']
@@ -106,4 +106,4 @@ if lst == [z.namelist()]:
     print("Congratulations, the backup succeeded.")
 else:
     print("Sorry, the backup failed.")
-```
+~~~
