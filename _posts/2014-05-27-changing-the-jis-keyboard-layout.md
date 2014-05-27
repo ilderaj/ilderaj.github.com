@@ -17,4 +17,4 @@ I used a keyboard layout editor named [*Ukelele*](http://scripts.sil.org/cms/scr
 
 With the `shift` key being pressed:
 
-![shift]({{ site.url }}/assets/shiftdefaultlayout.jpg)
+![shift]({{ site.url }}/image/shiftdefaultlayout.jpg)
