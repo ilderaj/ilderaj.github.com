@@ -19,3 +19,5 @@ I used a keyboard layout editor named [*Ukelele*](http://scripts.sil.org/cms/scr
 With the `shift` key being pressed:
 
 ![shift]({{ site.url }}/image/shiftdefaultlayout.jpg)
+
+Ukelele is easy to use. Double click any key and input the wanted key layout in the pop-up window. Or you can drag the existed key to any other position. Boom, there you go.  
